@@ -2,18 +2,19 @@ import babelpolyfill from 'babel-polyfill'
 import Vue from 'vue'
 import App from './App'
 import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
-//import './assets/theme/theme-green/index.css'
 import VueRouter from 'vue-router'
-import store from './vuex/store'
-import Vuex from 'vuex'
-//import NProgress from 'nprogress'
-//import 'nprogress/nprogress.css'
+import store  from './vuex/store'
+import Vuex   from 'vuex'
 import routes from './routes'
+import Vuetify from 'vuetify'
 
+
+import 'element-ui/lib/theme-default/index.css'
+import 'vuetify/dist/vuetify.min.css'
 import 'font-awesome/css/font-awesome.min.css'
 
 Vue.use(ElementUI)
+Vue.use(Vuetify)
 Vue.use(VueRouter)
 Vue.use(Vuex)
 
@@ -29,8 +30,8 @@ const router = new VueRouter({
 //});
 
 new Vue({
-  //el: '#app',
-  //template: '<App/>',
+//  el: '#app',
+//  template: '<App/>',
 	router,
 	store,
   //components: { App }

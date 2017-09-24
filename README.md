@@ -3,6 +3,8 @@
 # To start
 
 基于以上vue-admin做了修改
+使用vuetify UI组件
+修改了导航栏
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli)
 
