@@ -2,40 +2,19 @@
 
 # To start
 
-基于以上vue-admin做了修改
-使用vuetify UI组件
-修改了导航栏
-
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli)
+ * 使用了webpack2 模块化管理
+ * 使用vuetify UI组件
+ * 修改了导航栏
+ * 使用了vue-cli脚手架 [vue-cli](https://github.com/vuejs/vue-cli)
 
 ``` bash
-# install dependencies
+# install dependencies 下载依赖
 cnpm install
 
-# serve with hot reload at localhost:8081
+# serve with hot reload at localhost:8081 运行项目
 npm run dev
 
-# build for production with minification
+# build for production with minification 
 npm run build
 
-# Theme
-You can change theme by
-1. Generate theme packages by [https://elementui.github.io/theme-preview/#/](https://elementui.github.io/theme-preview/#/)
-2. Put theme packages in src/assets/theme/
-3. Edit src/main.js
-``` bash
-   import 'element-ui/lib/theme-default/index.css'
-   to
-   import './assets/theme/your-theme/index.css'
 ```
-4. Edit src/styles/vars.scss
-
-![theme-blue](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/rec-demo.gif)
-![theme-green](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/theme-green.png)
-
-# Browser support
-
-Modern browsers and IE 10+.
-
-# License
-[MIT](http://opensource.org/licenses/MIT)
