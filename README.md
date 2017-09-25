@@ -1,5 +1,3 @@
-**demo**: [https://taylorchen709.github.io/vue-admin/](https://taylorchen709.github.io/vue-admin/)
-
 # To start
 
  * 使用了webpack2 模块化管理
@@ -16,5 +14,8 @@ npm run dev
 
 # build for production with minification 
 npm run build
+
+# author
+yongji zhu
 
 ```
